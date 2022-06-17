@@ -1,0 +1,24 @@
+{
+  "name": "veith-codedresume",
+  "version": "1.0.0",
+  "description": "Veith Coded Resume",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elveeth/Veith-Coded-Resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elveeth/Veith-Coded-Resume/issues"
+  },
+  "homepage": "https://github.com/elveeth/Veith-Coded-Resume#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
