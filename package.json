@@ -1,7 +1,7 @@
 {
   "name": "veith-codedresume",
   "version": "1.0.0",
-  "description": "Veith Coded Resume",
+  "description": "Logan Veith Coded Resume",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/elveeth/Veith-Coded-Resume.git"
   },
-  "author": "",
+  "author": "Logan Veith",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/elveeth/Veith-Coded-Resume/issues"
@@ -20,5 +20,10 @@
   "homepage": "https://github.com/elveeth/Veith-Coded-Resume#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
