@@ -7,47 +7,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <title>Logan Veith - Code Poet</title>
+
+    <!-- JUST TO VISUALIZE GRID - DELETE LATER -->
+    <style>
+        .container-fluid {
+            border: solid blue;
+        }
+        .row {
+            border: solid yellowgreen;
+        }
+        .row div {
+            border: solid pink;
+        }
+        .main-header {
+            background-image: url(images/resume-bannerphoto.jpg);
+        }
+    </style>
+
 </head>
 
 <body>
-    <div>
-        <h1>Logan Veith</h1>
-            <h2>Software Engineer | Multimedia Specialist</h2>
-            <h4>logan.veith@gmail.com | 503.432.9947</h4>
+    <!-- HEADER AREA-->
+    <div class="main-header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Logan Veith</h1>
+                </div>
+                    <div class="col-12 text-center">
+                        <h4>Software Engineer | Multimedia Specialist</h4>
+                    </div>
+                    <div class="col-12 text-center">
+                        <h5>logan.veith@gmail.com | 503.432.9947</h5>
+                    </div>
+            </div>
+        </div>
     </div>
 
-    <h3>At a Glance</h3>
-        <p>Software Engineer with Multimedia background. Loves combining art and code. Writes poetry.</p>
-        <ul>
-            <li>HTML, CSS, Javascript</li>
-            <li>Multimedia Design</li>
-        </ul>
+    <!-- LEFT SIDE -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+                <h3>At a Glance</h3>
+                    <p>Software Engineer with Multimedia background. Loves combining art and code. Writes poetry.</p>
+                    <ul>
+                        <li>HTML, CSS, Javascript</li>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%; background-color: orange;">
+                        </div>
+                          </div>
+                        <li>Multimedia Design</li>
+                    </ul>
 
-    <h3>Skills</h3>
-        <ul>
-            <li>Photoshop, Illustrator, InDesign, and more Adobe</li>
-            <li>HTML & CSS, and Bootstrap</li>
-            <li>Javascript</li>
-            <li>React & React Native</li>
-            <li>2d Motion Graphics (After Effects)</li>
-        </ul>
+                <h3>Skills</h3>
+                    <ul>
+                        <li>Photoshop, Illustrator, InDesign, and more Adobe</li>
+                        <li>HTML & CSS, and Bootstrap</li>
+                        <li>Javascript</li>
+                        <li>React & React Native</li>
+                        <li>2d Motion Graphics (After Effects)</li>
+                    </ul>
 
-    <h3>Interests</h3>
-        <ul>
-            <li>Backpacking & camping</li>
-            <li>Performer at Reno Improv</li>
-            <li>Hand drawn and digital artwork</li>
-            <li>Wildlife & nature photography</li>
-        </ul>
+                <h3>Interests</h3>
+                    <ul>
+                        <li>Backpacking & camping</li>
+                        <li>Performer at Reno Improv</li>
+                        <li>Hand drawn and digital artwork</li>
+                        <li>Wildlife & nature photography</li>
+                    </ul>
+            </div>
 
-    <h3>Work Experience</h3>
-        <h4>Website Management</h4>
-            <p>
-                <i>Reno Food Tours</i><br>
-                 - Site customization, asset/content creation, upkeep & maintenance<br>
-                 - Leveraging the Wordpress platform for custumization and functionality, including ecommerce, booking, and event calendar.
-            </p>
-            
+        <!-- RIGHT SIDE -->
+            <div class="col-8">
+                <h3>Experience</h3>
+                    <h4>Full Stack Web & Mobile Development - Nucamp</h4>
+                        <p>
+                            - Learned HTML, CSS, and Bootstrap through building full websites that focused on user experience design, and delved into all aspects of what Bootstrap can do, such as modals, carousels, buttons, and many other common aspects of a well designed website.<br>
+                            - Built a React App.<br>
+                            - Built a React Native App for mobile.
+                        </p>
+
+            </div>
+        </div>
+    </div>
+
+
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
